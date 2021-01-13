@@ -1,0 +1,17 @@
+{
+  "name": "webpack-source-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "build": "npm run clean && webpack --config ./webpack-configs/webpack.config.js --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "webpack": "file:webpack"
+  }
+}
